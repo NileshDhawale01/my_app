@@ -1,0 +1,33 @@
+.error-container {
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.error-container h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+.error-container p {
+    font-size: 18px;
+    color: #666;
+}
+
+.HomeLink {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.HomeLink:hover {
+    background-color: #0056b3;
+}
