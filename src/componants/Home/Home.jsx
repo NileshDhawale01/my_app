@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-function Home() { 
+function Home() {
     return (
         <>
             <div className='home'>
