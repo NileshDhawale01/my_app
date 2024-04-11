@@ -10,6 +10,6 @@ function ErrorPage() {
             <Link to={'/'} className='HomeLink'>Go back to homepage</Link>
         </div>
     )
-}
+} 
 
 export default ErrorPage

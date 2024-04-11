@@ -17,7 +17,7 @@ const Sidebar = () => {
         </div>
         <div className='sideLink'>
           <Link to={'/not_found'}>Redirect If Link Not Found</Link>
-        </div>
+        </div> 
       </ul>
     </div>
 
