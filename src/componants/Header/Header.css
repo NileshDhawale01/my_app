@@ -5,4 +5,7 @@
     padding: 20px;
     text-align: center;
     width: 81%;
+    position: sticky;
+    top: 0;
+    left: 0;
 } 

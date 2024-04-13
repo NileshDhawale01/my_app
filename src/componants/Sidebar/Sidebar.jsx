@@ -16,8 +16,11 @@ const Sidebar = () => {
           <Link to={'/error'}>Error Page</Link>
         </div>
         <div className='sideLink'>
+          <Link to={'/card'}>Cards</Link>
+        </div>
+        <div className='sideLink'>
           <Link to={'/not_found'}>Redirect If Link Not Found</Link>
-        </div> 
+        </div>
       </ul>
     </div>
 

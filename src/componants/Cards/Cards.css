@@ -1,0 +1,16 @@
+.cardData{
+    margin-left: 250px;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding-top:10px ;
+}
+.card{
+    width: 22%;
+    background-color: rgb(126, 159, 224);
+    padding: 5px;
+    border-radius: 3px;
+}

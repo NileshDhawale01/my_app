@@ -6,10 +6,11 @@ import Home from './componants/Home/Home';
 import Sidebar from './componants/Sidebar/Sidebar';
 import ErrorPage from './componants/ErrorPage/ErrorPage';
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
+import Cards from './componants/Cards/Cards';
 
 function App() {
   return (
-    <>
+    <div style={{position : "relative"}}>
       <BrowserRouter>
         <Header />
         <Sidebar />
@@ -19,9 +20,10 @@ function App() {
           <Route path='/content' element={< Content />} />
           <Route path='/error' element={<ErrorPage />} />
           <Route path='/*' element={<Navigate to={'/'}/>}/>
+          <Route path='/card' element={<Cards/>}/>
         </Routes>
       </BrowserRouter> 
-    </>
+    </div>
   );
 }
 
